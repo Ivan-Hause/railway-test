@@ -3,7 +3,7 @@
   "version": "0.0.0",
   "scripts": {
     "build": "ng build --configuration production",
-    "start": "ng serve dist -s -p $PORT",
+    "start": "serve dist -s -p $PORT",
     "start:dev": "ng serve",
     "build:staging": "ng build --watch --configuration staging",
     "build:dev": "ng build --watch --configuration development",
@@ -20,6 +20,7 @@
     "@angular/platform-browser-dynamic": "^15.0.0",
     "@angular/router": "^15.0.0",
     "rxjs": "~7.5.0",
+    "serve": "^14.2.0",
     "tslib": "^2.3.0",
     "zone.js": "~0.12.0"
   },
