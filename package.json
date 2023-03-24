@@ -3,7 +3,7 @@
   "version": "0.0.0",
   "scripts": {
     "ng": "ng",
-    "start": "ng serve --host $IP --port $PORT",
+    "start": "ng serve --host 0.0.0.0 --port $PORT",
     "watch": "ng build --watch --configuration development",
     "staging": "ng build --watch --configuration staging",
     "dev": "ng build --watch --configuration development",
