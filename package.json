@@ -3,7 +3,7 @@
   "version": "0.0.0",
   "scripts": {
     "build": "ng build --configuration production",
-    "start": "serve dist -s -p $PORT",
+    "start": "ng serve dist -s -p $PORT",
     "start:dev": "ng serve",
     "build:staging": "ng build --watch --configuration staging",
     "build:dev": "ng build --watch --configuration development",
